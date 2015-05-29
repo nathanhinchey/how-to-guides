@@ -1,6 +1,8 @@
 #Making an HTML canvas fill window
 
 ###Making it fit the initial window size
+Dependency: jQuery. I used google's [hosted library](https://developers.google.com/speed/libraries/).
+
 In the \*.js file:
 ```javascript
 . . .
@@ -11,6 +13,8 @@ MyApp.DIM_Y = $(window).height();
 
 In the HTML file:
 ```HTML
+. . .
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 . . .
 <canvas id="game-canvas">
 
