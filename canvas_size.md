@@ -40,3 +40,8 @@ $(window).resize(function() {
   $("canvas").attr("height", MyApp.DIM_Y);
 });
 ```
+
+#Common Mistakes:
+This list will be updated as people report them. Please report and issue or make a pull request if you have any questions.
+* Make sure you don't have any values hard coded
+  - Many people have forgotten to make their clearRect linked to the same DIM_X and DIM_Y values.
