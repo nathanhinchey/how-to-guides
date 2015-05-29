@@ -53,6 +53,7 @@ This list will be updated as people report them. Please report an issue or make 
 
 ##Not using jQuery:
 If you don't need to have the canvas dynamically resize, you can avoid using jQuery:
+
 JavaScript:
 ```JavaScript
 MyApp.DIM_X = window.innerheight;
