@@ -39,7 +39,7 @@ In the \*.js file:
 ```javascript
 $(window).resize(function() {
   MyApp.DIM_X = $(window).width();
-  MyApp.Game.DIM_Y = $(window).height();
+  MyApp.DIM_Y = $(window).height();
   $("canvas").attr("width", MyApp.DIM_X);
   $("canvas").attr("height", MyApp.DIM_Y);
 });
