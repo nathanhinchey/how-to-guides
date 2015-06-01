@@ -16,11 +16,11 @@ In the HTML file:
 . . .
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 . . .
-<canvas id="game-canvas">
+<canvas id="my-canvas">
 
 <script type="text/javascript">
-  $("#game-canvas").attr("width", MyApp.DIM_X);
-  $("#game-canvas").attr("height", MyApp.DIM_Y);
+  $("#my-canvas").attr("width", MyApp.DIM_X);
+  $("#my-canvas").attr("height", MyApp.DIM_Y);
   . . .
 </script>
 . . .
@@ -63,10 +63,10 @@ MyApp.DIM_Y = window.innerwidth;
 HTML:
 ```HTML
 . . .
-<canvas id="game-canvas">
+<canvas id="my-canvas">
 
 <script type="text/javascript">
-  canvas = document.getElementById("game-canvas");
+  canvas = document.getElementById("my-canvas");
   canvas.height = MyApp.DIM_X;
   canvas.width = MyApp.DIM_Y;
   . . .
