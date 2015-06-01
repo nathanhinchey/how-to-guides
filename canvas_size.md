@@ -40,8 +40,8 @@ In the \*.js file:
 $(window).resize(function() {
   MyApp.DIM_X = $(window).width();
   MyApp.DIM_Y = $(window).height();
-  $("canvas").attr("width", MyApp.DIM_X);
-  $("canvas").attr("height", MyApp.DIM_Y);
+  $("#my-canvas").attr("width", MyApp.DIM_X);
+  $("#my-canvas").attr("height", MyApp.DIM_Y);
 });
 ```
 
