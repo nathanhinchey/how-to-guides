@@ -13,6 +13,7 @@ namecheap doesn't allow CNAMEs to point at urls that include a / character. In o
 * Set the IP ADDRESS/URL column in the WWW row to point to the top level URL (if you don't want a WWW)
 * set that RECORD TYPE drop down to URL Redirect
 ![namecheap screenshot](/namecheapurl.png)
+
 *note: your project repo would be called `a` in this picture example; I used it so it would all fit in the frame*
 
 ##Subdomain
