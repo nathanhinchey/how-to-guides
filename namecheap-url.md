@@ -1,3 +1,5 @@
+#NOTE: This needs to be updated. All you need to do is put a CNAME file in your project and point at it. URL Frames are not necessary.
+
 #Making a namecheap URL point at your github project
 
 * Go to your namecheap dashboard
